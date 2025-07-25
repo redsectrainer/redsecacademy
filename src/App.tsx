@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Phone, Mail, Users, Target, Smartphone, Brain, Wifi, UserCheck, BookOpen, ChevronRight, MessageCircle } from 'lucide-react';
+import { Shield, Zap, Phone, Mail, Users, Target, Smartphone, Brain, Wifi, UserCheck, BookOpen, ChevronRight, MessageCircle } from 'lucide-react';
 
 function App() {
   const courses = [
@@ -69,11 +69,9 @@ function App() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
   <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-    Red
-  </span>
-  <Shield className="h-8 w-8 text-red-500" />
-  <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-    Sec
+    Red</span>
+  <Zap className="h-8 w-8 text-red-500" />
+  <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">ec
   </span>
 </div>
             <nav className="hidden md:flex items-center space-x-8">
