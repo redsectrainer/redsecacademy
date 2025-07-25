@@ -67,12 +67,15 @@ function App() {
       <header className="bg-black/50 backdrop-blur-sm border-b border-red-600/20 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center space-x-3">
-              <Shield className="h-8 w-8 text-red-500" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-                RedSec
-              </span>
-            </div>
+            <div className="flex items-center space-x-2">
+  <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
+    Red
+  </span>
+  <Shield className="h-8 w-8 text-red-500" />
+  <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
+    Sec
+  </span>
+</div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-300 hover:text-red-400 transition-colors">Home</a>
               <a href="#courses" className="text-gray-300 hover:text-red-400 transition-colors">Courses</a>
