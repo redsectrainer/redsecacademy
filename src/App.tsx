@@ -71,11 +71,12 @@ function App() {
   <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
     Red
   </span>
-  <Zap className="h-7 w-7 text-red-500 mx-0.5" />
+  <Zap className="h-7 w-7 text-red-500" />
   <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
     ec
   </span>
 </div>
+
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-300 hover:text-red-400 transition-colors">Home</a>
               <a href="#courses" className="text-gray-300 hover:text-red-400 transition-colors">Courses</a>
