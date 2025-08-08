@@ -4,7 +4,7 @@ import { Shield, Zap, Phone, Mail, Users, Target, Smartphone, Brain, Wifi, UserC
 function App() {
   const courses = [
     {
-      title: "Neeeeeeeeeetwork Pentest",
+      title: "Network Pentest",
       description: "Master network security testing, vulnerability assessment, and penetration testing techniques for enterprise networks.",
       icon: <Wifi className="h-8 w-8" />,
       duration: "6 weeks",
